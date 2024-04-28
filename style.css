@@ -1,0 +1,46 @@
+.navbar-nav{
+  margin-left: 40rem;
+}
+.nav-item>.nav-link a{
+    color: black !important;
+    font-weight: bold;
+
+}
+.container{
+    background-color: rgba(113, 219, 226, 0.774);
+    background-image: url(./img/_x31_.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    height: 590px;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-size: 3rem;
+    color: rgb(37, 37, 141) !important;
+}
+
+@media  (max-width: 600px) {
+    .container{
+        background-color: rgba(113, 219, 226, 0.774);
+    background-image: url(./img/_x31_.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+   min-width: 460px;
+   height: 950px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    }
+    .nav-link a{
+        color: black !important;
+        font-weight: bold;
+    }  
+    .card-text{
+        font-size: 50px;
+        margin-top: 50px;
+    }  
+}
+
